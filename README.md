@@ -1,3 +1,2 @@
-# Portfolio
-
-Meus trabalhos e habilidades
+# Potifólio 
+Trabalhos, habilidades, informações adicionais, entre outros.
