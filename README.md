@@ -1,8 +1,6 @@
-# Potifólio 
-
+# Portfólio
 
 ![image](https://github.com/user-attachments/assets/2eaf67fc-aba4-4bf4-b701-81d73aedf7d3)
-
 
 ---
 
@@ -10,33 +8,27 @@
 
 Criar um ambiente digital onde:
 
-- Pessoas possam ver meu trabalhos e habilidades.
-
+- Pessoas possam conhecer meus trabalhos e habilidades.
 
 ---
 
-
-
 ## Tecnologias Utilizadas
 
-- **Frontend:** HTML5, CSS3, JavaScript, Next.js.
-
+- **Frontend:** HTML5, CSS3, JavaScript, Next.js
 
 ---
 
 ## Funcionalidades
 
-
-- Visualização de Header com minhas informaçãoes adicionais.
-- Vizualização de um Accordion minhas habilidades e um link para o meu Github para acesso ao meus projetos.
+- Visualização de um cabeçalho (Header) com minhas informações.
+- Visualização de um Accordion com minhas habilidades.
+- Link direto para o meu GitHub com acesso aos meus projetos.
 
 ---
 
 ## Como Executar o Projeto Localmente
 
-
 ### No Terminal/Bash
-
 
 **Clone o repositório:**
 
@@ -45,14 +37,17 @@ git clone https://github.com/mariaclarareginato/Portifolio.git
 ```
 
 
-
-**Vá a pasta app:**
+Acesse a pasta do projeto:
 
 ```bash
-cd src
-cd app
+cd C:\Users\Windows\Downloads\portifolio
 ```
 
+Acesse a pasta app:
+
+```bash
+cd src/app
+```
 
 Inicie o servidor de desenvolvimento:
 
@@ -62,7 +57,4 @@ npm run dev
 
 
 ## Desenvolvido por:
-
 Maria Clara Reginato
-
-
