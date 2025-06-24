@@ -1,6 +1,7 @@
 # Portfólio
 
-![image](https://github.com/user-attachments/assets/2eaf67fc-aba4-4bf4-b701-81d73aedf7d3)
+![image](https://github.com/user-attachments/assets/383597f3-e97e-4ab2-9b98-d92a9d0c15d2)
+
 
 ---
 
