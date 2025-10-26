@@ -41,9 +41,9 @@ export default function HomePage() {
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
-            <DropdownMenuItem onClick={() => setTheme("light")}>Light</DropdownMenuItem>
-            <DropdownMenuItem onClick={() => setTheme("dark")}>Dark</DropdownMenuItem>
-            <DropdownMenuItem onClick={() => setTheme("system")}>System</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => setTheme("light")}>Tema claro</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => setTheme("dark")}>Tema escuro</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => setTheme("system")}>Tema do sistema</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
