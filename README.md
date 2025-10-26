@@ -15,7 +15,7 @@ Criar um ambiente digital onde:
 
 ## Tecnologias Utilizadas
 
-- **Frontend:** HTML5, CSS3, JavaScript, Next.js
+- **Frontend:** HTML5, CSS3, JavaScript, Next.js, Shadcn/UI e Tailwindcss.
 
 ---
 
