@@ -1,18 +1,15 @@
-import type { Metadata } from "next";
-import { ThemeProvider } from "@/components/theme-provider"
+
+import { ThemeProvider } from "../components/theme-provider"
 import "./globals.css";
 
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Portifólio - Maria Clara Reginato",
   description: "Trabalhos e habilidades",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({children }) {
+
   return (
     <html lang="en">
       <body>
@@ -26,5 +23,5 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
-  );
-}
+  )
+};

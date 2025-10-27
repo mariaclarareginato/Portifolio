@@ -1,17 +1,17 @@
 "use client";
 
 import Image from "next/image";
-import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "../components/ui/accordion";
 import { Phone, Mail, MapPin, MessageCircle, Sun, Moon } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import { useTheme } from "next-themes";
 import { 
   SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiGithub 
 } from "react-icons/si";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "../components/ui/dropdown-menu";
 
 export default function HomePage() {
-  const { theme, setTheme, systemTheme } = useTheme();
+  const { setTheme } = useTheme();
 
   return (
     <main className="p-10 max-w-5xl mx-auto space-y-10">
@@ -72,9 +72,9 @@ export default function HomePage() {
       <div className="text-center">
         <p className="mb-4 mt-4 font-semibold">Idiomas:</p>
         <div className="grid grid-cols-3 justify-items-center gap-4">
-          <img src="/idiomas/bra.png" alt="Português" className="w-20 transition-transform duration-300 hover:scale-125" />
-          <img src="/idiomas/eua.png" alt="Inglês" className="w-20 transition-transform duration-300 hover:scale-125" />
-          <img src="/idiomas/esp.png" alt="Espanhol" className="w-20 transition-transform duration-300 hover:scale-125" />
+          <img src="/idiomas/bra.png" alt="Português" className="w-20 h-10 transition-transform duration-300 hover:scale-125" />
+          <img src="/idiomas/eua.png" alt="Inglês" className="w-20 h-10 transition-transform duration-300 hover:scale-125" />
+          <img src="/idiomas/esp.png" alt="Espanhol" className="w-20 h-10 transition-transform duration-300 hover:scale-125" />
         </div>
       </div>
 
@@ -104,10 +104,10 @@ export default function HomePage() {
             <div className="mt-10 flex flex-col items-center text-center">
               <h2 className="text-2xl font-bold mb-4">Pessoais:</h2>
               <ul className="list-disc list-inside text-left max-w-md text-lg">
-                <li>Trabalho em equipe</li>
-                <li>Organização</li>
-                <li>Calma em resolução de problemas</li>
-                <li>Flexibilidade</li>
+                <li className="m-5">Trabalho em equipe</li>
+                <li className="m-5">Organização</li>
+                <li className="m-5">Calma em resolução de problemas</li>
+                <li className="m-5">Flexibilidade</li>
               </ul>
             </div>
           </AccordionContent>
@@ -138,5 +138,5 @@ export default function HomePage() {
       </footer>
       
     </main>
-  );
-}
+  )
+};
